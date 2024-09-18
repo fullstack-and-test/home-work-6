@@ -1,0 +1,94 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.table {
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+.table__cell {
+	box-sizing: border-box;
+	width: 25px;
+	height: 25px;
+	box-sizing: border-box;
+	border: 12px solid black;
+}
+
+/* Colors */
+.table__cell--white {
+	background-color: #fefefe;
+}
+
+.table__cell--yellow {
+	background-color: #fed815;
+}
+
+.table__cell--red {
+	background-color: #f7150c;
+}
+
+.table__cell--blue {
+	background-color: #0c0ab4;
+}
+
+.table__cell--black {
+	background-color: #030101;
+}
+
+/* For colspan to match the image */
+.table__cell[colspan="9"] {
+	width: 225px; /* 25px x 9 */
+}
+
+.table__cell[colspan="6"] {
+	width: 150px;
+}
+
+.table__cell[colspan="5"] {
+	width: 125px;
+}
+
+.table__cell[colspan="4"] {
+	width: 100px;
+}
+
+.table__cell[colspan="3"] {
+	width: 75px;
+}
+
+.table__cell[colspan="2"] {
+	width: 50px;
+}
+
+/* For colspan to match the image */
+.table__cell[rowspan="12"] {
+	height: 300px; /* 25px x 12 */
+}
+.table__cell[rowspan="8"] {
+	height: 200px;
+}
+
+.table__cell[rowspan="6"] {
+	height: 150px;
+}
+
+.table__cell[rowspan="5"] {
+	height: 125px;
+}
+
+.table__cell[rowspan="4"] {
+	height: 100px;
+}
+
+.table__cell[rowspan="3"] {
+	height: 75px;
+}
+
+.table__cell[rowspan="2"] {
+	height: 50px;
+}
