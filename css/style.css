@@ -50,7 +50,7 @@ body {
 	width: 28%;
 }
 
-/* For colspan to match the image */
+/* For rowspan to match the image */
 .table__cell[rowspan="4"] {
 	/* 14% x 4 */
 	height: 56%;
