@@ -1,0 +1,65 @@
+body {
+	width: 1225px;
+	height: 1210px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.table {
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+.table__cell {
+	width: 14%;
+	height: 14%;
+	border: 12px solid black;
+	box-sizing: border-box;
+}
+
+/* Colors */
+.table__cell--white {
+	background-color: #fefefe;
+}
+
+.table__cell--yellow {
+	background-color: #fed815;
+}
+
+.table__cell--red {
+	background-color: #f7150c;
+}
+
+.table__cell--blue {
+	background-color: #0c0ab4;
+}
+
+.table__cell--black {
+	background-color: #030101;
+}
+
+/* For colspan to match the image */
+.table__cell[colspan="3"] {
+	width: 42%; /* 14% x 3 */
+}
+
+.table__cell[colspan="2"] {
+	width: 28%;
+}
+
+/* For colspan to match the image */
+.table__cell[rowspan="4"] {
+	/* 14% x 4 */
+	height: 56%;
+}
+
+.table__cell[rowspan="3"] {
+	height: 42%;
+}
+
+.table__cell[rowspan="2"] {
+	height: 28%;
+}
