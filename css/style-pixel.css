@@ -20,23 +20,23 @@ body {
 }
 
 /* Colors */
-.table__cell--white {
+.table__cell--main {
 	background-color: #fefefe;
 }
 
-.table__cell--yellow {
+.table__cell--additional {
 	background-color: #fed815;
 }
 
-.table__cell--red {
+.table__cell--secondary {
 	background-color: #f7150c;
 }
 
-.table__cell--blue {
+.table__cell--unique {
 	background-color: #0c0ab4;
 }
 
-.table__cell--black {
+.table__cell--filled {
 	background-color: #030101;
 }
 
